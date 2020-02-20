@@ -1,0 +1,27 @@
+{
+  "name": "fisp-notifier",
+  "version": "1.0.0",
+  "description": "FISP is a cool llittle program built using node. Its only purpose is to automate troubleshooting, tracking and reporting on the F****** Internet Service Provider to solve internet issues.",
+  "main": "out/main.js",
+  "dependencies": {
+    "mailer": "^0.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4DM0NK3Y/FISP-Notifier.git"
+  },
+  "keywords": [
+    "ISP",
+    "Notifier"
+  ],
+  "author": "Cornelis Terblanche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4DM0NK3Y/FISP-Notifier/issues"
+  },
+  "homepage": "https://github.com/M4DM0NK3Y/FISP-Notifier#readme"
+}

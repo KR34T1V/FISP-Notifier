@@ -1,0 +1,14 @@
+{
+    "emailAddress": null,
+    
+
+
+    "localPing" : [],
+    "remotePing": [],
+    "serviceProvider" : "",
+    "checkInterval" : 0,
+    "reportSchedule" : null,
+    "accountHolder" : null,
+    "accountNumber" : null,
+    "contactNumber" : null
+}
