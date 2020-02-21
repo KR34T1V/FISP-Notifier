@@ -1,7 +1,8 @@
-import { localPing } from './local';
+import { localPing } from './commands/ping';
 import { configJSON } from './interfaces';
 
 let config:configJSON = {
+    logDirectory: '~/Documents/FISP-Notifier_logs',
     retries: 25,
     delay: 10,
 

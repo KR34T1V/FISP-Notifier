@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra';
 import * as ping from 'ping';
-import {configJSON} from '../interfaces';
+import {configJSON} from '../../interfaces';
 
 export function localPing(config:configJSON){
     if (config.localIP.length){
@@ -21,6 +21,7 @@ export function localPing(config:configJSON){
                 stddev:${result.stddev}
                 `;
                 console.log(output);
+                //create data file
             });
         });
     } else {

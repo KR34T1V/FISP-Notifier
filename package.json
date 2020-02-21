@@ -4,11 +4,14 @@
   "description": "FISP is a cool llittle program built using node. Its only purpose is to automate troubleshooting, tracking and reporting on the F****** Internet Service Provider to solve internet issues.",
   "main": "out/main.js",
   "dependencies": {
-    "mailer": "^0.6.7"
+    "fs-extra": "^8.1.0",
+    "mailer": "^0.6.7",
+    "ping": "^0.2.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && node out/main.js",
+    "start": "node out/main.js"
   },
   "repository": {
     "type": "git",
