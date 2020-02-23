@@ -1,8 +1,8 @@
 import * as fs from 'fs-extra'
-import { isDir } from './isDir'
+import { pathIsDir } from './pathIsDir'
 
 export function localWriteJSON(path:string, object:any, createPath?:boolean){
-    if (!isDir(path) && fs.pathExists(path)){
+    if (!pathIsDir(path) && fs.pathExists(path)){
         fs.writeJSON(path, object)
     } else {
         //Invalid path
