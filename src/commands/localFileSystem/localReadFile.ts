@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra'
 import { pathIsDir } from './pathIsDir'
 
-export async function localReadJSON(path:string){
+export async function localReadFile(path:string){
     if (!pathIsDir(path) && await fs.pathExists(path)){
         return(await fs.readJSON(path));
     } else {
